@@ -1,0 +1,27 @@
+li .glyphicon {
+    margin-right: 10px;
+}
+
+/* Highlighting rules for nav menu items */
+li.link-active a,
+li.link-active a:hover,
+li.link-active a:focus {
+    background-color: #4189C7;
+    color: white;
+}
+
+@media (min-width: 767px) {
+    nav {
+        align-content: center;
+        padding-left: 200px;
+    }
+    .nav li {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .navbar-brand {
+        padding-left: 5px;
+        padding-right: 50px;
+    }
+}
+

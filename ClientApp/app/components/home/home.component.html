@@ -1,0 +1,25 @@
+<div name="default page" *ngIf="auth.storage.username == null">
+    <h1>Welcome.</h1>
+    <h2>You are not logged in.</h2>
+    <p>Login to an existing account, or sign-up now!</p>
+</div>
+<div name="logged_in page" *ngIf="auth.storage.username != null">
+    <h1>Welcome {{auth.storage.username}}.</h1>
+    <h2>You are logged in.</h2>
+    <br />
+    <h2>To-do List</h2>
+    <ol>
+        <li (click)="remove($event)" *ngFor="let task of list">{{task}}</li>
+    </ol>
+    <input [(ngModel)]="newTodo" name="newBox" id="newBoxID"/>
+    <button (click)="addToList(newTodo)">Add</button>
+</div>
+<div name="special_page" *ngIf="auth.storage.username == 'maritobustillo'">
+    <h2>I love you mari :)</h2>
+</div>
+<style>
+    li {
+        font-size: 18px;
+    }
+</style>
+

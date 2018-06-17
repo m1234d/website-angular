@@ -1,0 +1,11 @@
+C:\Users\matthew\source\repos\CoreAngular\CoreAngular\bin\Debug\netcoreapp2.0\CoreAngular.deps.json
+C:\Users\matthew\source\repos\CoreAngular\CoreAngular\bin\Debug\netcoreapp2.0\CoreAngular.runtimeconfig.json
+C:\Users\matthew\source\repos\CoreAngular\CoreAngular\bin\Debug\netcoreapp2.0\CoreAngular.runtimeconfig.dev.json
+C:\Users\matthew\source\repos\CoreAngular\CoreAngular\bin\Debug\netcoreapp2.0\CoreAngular.dll
+C:\Users\matthew\source\repos\CoreAngular\CoreAngular\bin\Debug\netcoreapp2.0\CoreAngular.pdb
+C:\Users\matthew\source\repos\CoreAngular\CoreAngular\obj\Debug\netcoreapp2.0\CoreAngular.csproj.CoreCompileInputs.cache
+C:\Users\matthew\source\repos\CoreAngular\CoreAngular\obj\Debug\netcoreapp2.0\CoreAngular.AssemblyInfoInputs.cache
+C:\Users\matthew\source\repos\CoreAngular\CoreAngular\obj\Debug\netcoreapp2.0\CoreAngular.AssemblyInfo.cs
+C:\Users\matthew\source\repos\CoreAngular\CoreAngular\obj\Debug\netcoreapp2.0\CoreAngular.dll
+C:\Users\matthew\source\repos\CoreAngular\CoreAngular\obj\Debug\netcoreapp2.0\CoreAngular.pdb
+C:\Users\matthew\source\repos\CoreAngular\CoreAngular\obj\Debug\netcoreapp2.0\CoreAngular.csprojAssemblyReference.cache

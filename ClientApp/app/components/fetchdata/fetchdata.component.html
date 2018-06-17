@@ -1,0 +1,24 @@
+<h1>Database Fetch</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<p *ngIf="!logins"><em>Loading...</em></p>
+
+<table class='table' *ngIf="logins">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Password</th>
+            <th>UserHash</th>
+            <th>PassHash</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let login of logins">
+            <td>{{ login.username }}</td>
+            <td>{{ login.pass }}</td>
+            <td>{{ login.userHash }}</td>
+            <td>{{ login.passHash }}</td>
+        </tr>
+    </tbody>
+</table>

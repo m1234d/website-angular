@@ -1,0 +1,9 @@
+C:\Users\matthew\source\repos\CoreAngular\CoreAngular
+--output-path=obj\Debug\netcoreapp2.0\
+--application-name=CoreAngular
+--content-root=C:\Users\matthew\source\repos\CoreAngular\CoreAngular
+--file=C:\Users\matthew\source\repos\CoreAngular\CoreAngular\Views\Home\Index.cshtml
+--file=C:\Users\matthew\source\repos\CoreAngular\CoreAngular\Views\Shared\Error.cshtml
+--file=C:\Users\matthew\source\repos\CoreAngular\CoreAngular\Views\Shared\_Layout.cshtml
+--file=C:\Users\matthew\source\repos\CoreAngular\CoreAngular\Views\_ViewImports.cshtml
+--file=C:\Users\matthew\source\repos\CoreAngular\CoreAngular\Views\_ViewStart.cshtml
