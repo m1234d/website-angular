@@ -16,6 +16,7 @@ import { GamesComponent } from './components/games/games.component';
 import { AuthenticateService } from './services/authenticate.service';
 import { StorageService } from './services/storage.service';
 import { MessagesComponent } from './components/messages/messages.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
     declarations: [
@@ -27,7 +28,8 @@ import { MessagesComponent } from './components/messages/messages.component';
         LoginComponent,
         SignupComponent,
         GamesComponent,
-        MessagesComponent
+        MessagesComponent,
+        AboutComponent,
     ],
     providers: [RestService, AuthenticateService, StorageService],
     imports: [
@@ -43,6 +45,7 @@ import { MessagesComponent } from './components/messages/messages.component';
             { path: 'signup', component: SignupComponent },
             { path: 'games', component: GamesComponent },
             { path: 'messages', component: MessagesComponent },
+            { path: 'about', component: AboutComponent },
             { path: '**', redirectTo: '' }
         ])
     ]

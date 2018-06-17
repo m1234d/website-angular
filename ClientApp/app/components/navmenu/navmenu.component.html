@@ -13,19 +13,30 @@
 
                 <li [routerLinkActive]="['link-active']">
                     <a [routerLink]="['/home']">
-                        <span class='glyphicon glyphicon-home'></span> Home
+                        <span class='glyphicon glyphicon-home'></span>Home
                     </a>
                 </li>
                 <li [routerLinkActive]="['link-active']">
                     <a [routerLink]="['/games']">
                         <!--<a href="./api/User/GetUsers">-->
-                        <span class='glyphicon glyphicon-hdd'></span> Games
+                        <span class='glyphicon glyphicon-hdd'></span>Games
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/about']">
+                        <!--<a href="./api/User/GetUsers">-->
+                        <span class='glyphicon glyphicon-question-sign'></span>About
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.github.com/m1234d">
+                        <span class='glyphicon glyphicon-certificate'></span>Github
                     </a>
                 </li>
                 <li [routerLinkActive]="['link-active']" *ngIf="auth.storage.logged_in">
                     <a [routerLink]="['/messages']">
                         <!--<a href="./api/User/GetUsers">-->
-                        <span class='glyphicon glyphicon-comment'></span> Messages
+                        <span class='glyphicon glyphicon-comment'></span>Messages
                     </a>
                 </li>
             </ul>
@@ -35,12 +46,12 @@
             <ul class="nav navbar-nav navbar-right" (click)="isCollapsed = !isCollapsed" *ngIf="!auth.storage.logged_in">
                 <li [routerLinkActive]="['link-active']">
                     <a [routerLink]="['/signup']">
-                        <span class='glyphicon glyphicon-user'></span> Sign-Up
+                        <span class='glyphicon glyphicon-user'></span>Sign-Up
                     </a>
                 </li>
                 <li [routerLinkActive]="['link-active']">
                     <a [routerLink]="['/login']">
-                        <span class='glyphicon glyphicon-log-in'></span> Login
+                        <span class='glyphicon glyphicon-log-in'></span>Login
                     </a>
                 </li>
             </ul>
