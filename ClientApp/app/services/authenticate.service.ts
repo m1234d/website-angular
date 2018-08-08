@@ -34,19 +34,19 @@ export class AuthenticateService {
         try {
             var tok = localStorage.getItem("loginToken");
             var user = localStorage.getItem("username");
-            console.log("Current token" + tok);
+            console.log("Current token: " + tok);
             if (tok == "" || tok == null || tok == "null") {
-                console.log("Login Invalid");
+                console.log("Login token invalid");
                 this.logout();
                 return;
             }
             this.verifyToken({ username: user, token_id: tok }).subscribe(result => {
                 if (result) {
-                    console.log("Login Verified");                  
+                    console.log("Login token verified");                  
                     this.storage.login();
                 }
                 else {
-                    console.log("Login Invalid");
+                    console.log("Login token invalid");
                     this.storage.logout();
                 }
             });

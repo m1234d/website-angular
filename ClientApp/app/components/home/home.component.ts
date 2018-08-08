@@ -14,20 +14,16 @@ export class HomeComponent implements OnInit{
     constructor(_auth: AuthenticateService, _rest: RestService) {
         this.auth = _auth;
         this.rest = _rest;
-        this.auth.runVerify();
     }
     //called when page loads
     ngOnInit() {
         this.auth.runVerify();
         this.list = [];
-        if (this.auth.storage.logged_in == true) {
-            console.log("wtf");
-            this.loadUser();
-        }
+        //if (this.auth.storage.logged_in == true) {
+        //    this.loadUser();
+        //}
         this.auth.watchLogin().subscribe(result => {
             if (result == true) {
-                console.log("wtf2");
-
                 this.loadUser();
             }
         });

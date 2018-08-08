@@ -18,8 +18,7 @@ export class RestService {
         let options = new RequestOptions({ headers: headers2 });
         console.log("[POST] Sending " + input + " to " + url);
         return this.http.post(this.baseUrl + url, input, options).map(result => {
-            console.log("[POST] Received:");
-            console.log(result.json());
+            console.log("[POST] Received: " + result.json());
             return result.json();
         })
     }

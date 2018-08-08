@@ -25,7 +25,7 @@ namespace CoreAngular
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            var connection = @"Data Source=webdata.csn0djncqcl6.us-east-2.rds.amazonaws.com,1433;Initial Catalog=logindata; User ID=m1234d; Password=blueeyes12;";
+            var connection = @"Data Source=webdata.csn0djncqcl6.us-east-2.rds.amazonaws.com,1433;Initial Catalog=logindata; User ID=m1234d; Password=Blueeyes123;";
             services.AddDbContext<logindataContext>(options => options.UseSqlServer(connection));
         }
 

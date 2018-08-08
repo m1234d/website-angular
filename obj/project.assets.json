@@ -13418,23 +13418,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matthew\\.nuget\\packages\\": {},
+    "C:\\Users\\mgdesoto\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matthew\\source\\repos\\CoreAngular\\CoreAngular\\CoreAngular.csproj",
+      "projectUniqueName": "C:\\Users\\mgdesoto\\Documents\\website-angular\\CoreAngular.csproj",
       "projectName": "CoreAngular",
-      "projectPath": "C:\\Users\\matthew\\source\\repos\\CoreAngular\\CoreAngular\\CoreAngular.csproj",
-      "packagesPath": "C:\\Users\\matthew\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matthew\\source\\repos\\CoreAngular\\CoreAngular\\obj\\",
+      "projectPath": "C:\\Users\\mgdesoto\\Documents\\website-angular\\CoreAngular.csproj",
+      "packagesPath": "C:\\Users\\mgdesoto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mgdesoto\\Documents\\website-angular\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mgdesoto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

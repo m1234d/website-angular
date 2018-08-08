@@ -130,7 +130,15 @@ namespace CoreAngular.Controllers
         [HttpPost("[action]")]
         public string[] GetTodo([FromBody]string[] data)
         {
-            string[] list = getFromString(_dbContext.TodoList.Find(data[0]).List);
+            string[] list;
+            try
+            {
+                list = getFromString(_dbContext.TodoList.Find(data[0]).List);
+            }
+            catch(Exception e)
+            {
+                list = new string[] { };   
+            }
             return list;
         }
         [HttpPost("[action]")]
